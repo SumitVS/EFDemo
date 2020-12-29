@@ -16,7 +16,13 @@ namespace EFDemo.Controllers
         }
         public ActionResult Index()
         {
-            employeeRepository.GetDepartments();
+            var model=employeeRepository.GetDepartments();
+            return View(model);
+        }
+
+        public ActionResult InvokeStoreProcedure()
+        {
+            employeeRepository.InvokeStoreProcedure();
             return View();
         }
     }

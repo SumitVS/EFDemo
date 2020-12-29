@@ -135,6 +135,7 @@
     <Compile Include="Models\Code First\Department.cs" />
     <Compile Include="Models\Code First\Employee.cs" />
     <Compile Include="Models\Code First\EmployeeDBContext.cs" />
+    <Compile Include="Models\Code First\spGetanonymousType_ResultType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\EmployeeRepositoryCF.cs" />
   </ItemGroup>
@@ -174,10 +175,11 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\CodeFirst\Index.cshtml" />
+    <Content Include="Views\CodeFirst\InvokeStoreProcedure.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\CodeFirst\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
